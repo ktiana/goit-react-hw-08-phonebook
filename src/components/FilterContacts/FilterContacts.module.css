@@ -20,11 +20,15 @@
 }
 
 .contacts input {
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-  outline: none;
-  border: none;
+  box-shadow: orange;
+
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  border-color: bisque;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  margin: 10px auto 20px;
 }
